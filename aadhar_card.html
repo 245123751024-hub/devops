@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aadhar Card</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #e6e6e6;
+        }
+
+        .card {
+            width: 420px;
+            margin: 40px auto;
+            background: #fff;
+            border: 1px solid #000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .tricolor {
+            height: 6px;
+            background: linear-gradient(
+                to right,
+                #ff9933,
+                #ffffff,
+                #138808
+            );
+        }
+
+        .header {
+            text-align: center;
+            padding: 8px 10px;
+            border-bottom: 1px solid #000;
+        }
+
+        .header h1 {
+            margin: 4px 0;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .sub-header {
+            font-size: 13px;
+            color: #444;
+        }
+
+        .content {
+            padding: 12px;
+        }
+
+        .photo {
+            width: 90px;
+            height: 110px;
+            border: 1px solid #000;
+            float: right;
+            text-align: center;
+            line-height: 110px;
+            font-size: 11px;
+        }
+
+        .row {
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+
+        .label {
+            font-weight: 600;
+            width: 130px;
+            display: inline-block;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .aadhar-number {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            margin: 14px 0 8px;
+            letter-spacing: 3px;
+        }
+
+        .footer {
+            border-top: 1px solid #000;
+            text-align: center;
+            font-size: 12px;
+            padding: 8px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="tricolor"></div>
+
+    <div class="header">
+        <h1>Government of India</h1>
+        <div class="sub-header">
+            Unique Identification Authority of India
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="photo">Photo</div>
+
+        <div class="row">
+            <span class="label">Name:</span> Rahul Sharma
+        </div>
+        <div class="row">
+            <span class="label">Date of Birth:</span> 15-08-1998
+        </div>
+        <div class="row">
+            <span class="label">Gender:</span> Male
+        </div>
+        <div class="row">
+            <span class="label">Address:</span>
+            New Delhi, India
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="aadhar-number">
+            1234&nbsp;&nbsp;5678&nbsp;&nbsp;9012
+        </div>
+    </div>
+
+    <div class="footer">
+        My Aadhar, My Identity
+    </div>
+</div>
+
+</body>
+</html>
+
